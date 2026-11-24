@@ -209,7 +209,7 @@ No **Explore**, usei a regra de estilo **Unique values** na categoria `Usuario`,
 
 - Peso por **recência** (propriedade `data` em `OUVIU`).
 - Dataset real (Last.fm, Million Song Dataset).
-- **GDS** em Neo4j Desktop ou AuraDS: PageRank personalizado, Node Similarity, Louvain (scripts prontos em `cypher/`).
+- **GDS** em Neo4j Desktop ou AuraDS: PageRank personalizado, Node Similarity.
 - Embeddings de nós (FastRP) + kNN.
 - API de recomendação em Python com o driver oficial do Neo4j.
 
