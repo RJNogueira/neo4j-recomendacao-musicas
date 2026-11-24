@@ -1,0 +1,183 @@
+{
+  "nodes": [
+    {
+      "id": "n0",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "caption": "",
+      "style": {
+        "node-color": "#d9c8f5",
+        "radius": 70
+      },
+      "labels": [
+        "Usuario"
+      ],
+      "properties": {
+        "id": "string",
+        "nome": "string",
+        "pais": "string"
+      }
+    },
+    {
+      "id": "n1",
+      "position": {
+        "x": 700,
+        "y": 0
+      },
+      "caption": "",
+      "style": {
+        "node-color": "#bfe8dc",
+        "radius": 70
+      },
+      "labels": [
+        "Musica"
+      ],
+      "properties": {
+        "id": "string",
+        "titulo": "string",
+        "ano": "integer"
+      }
+    },
+    {
+      "id": "n2",
+      "position": {
+        "x": 1400,
+        "y": -300
+      },
+      "caption": "",
+      "style": {
+        "node-color": "#f9d3b8",
+        "radius": 70
+      },
+      "labels": [
+        "Artista"
+      ],
+      "properties": {
+        "id": "string",
+        "nome": "string"
+      }
+    },
+    {
+      "id": "n3",
+      "position": {
+        "x": 1400,
+        "y": 300
+      },
+      "caption": "",
+      "style": {
+        "node-color": "#fbe9a8",
+        "radius": 70
+      },
+      "labels": [
+        "Genero"
+      ],
+      "properties": {
+        "nome": "string"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n0r",
+      "fromId": "n0",
+      "toId": "n1",
+      "type": "OUVIU",
+      "style": {},
+      "properties": {
+        "nota": "integer 1-5",
+        "vezes": "integer"
+      }
+    },
+    {
+      "id": "n1r",
+      "fromId": "n0",
+      "toId": "n1",
+      "type": "RECOMENDA",
+      "style": {},
+      "properties": {
+        "score": "float",
+        "metodo": "string",
+        "usuarios_similares": "integer"
+      }
+    },
+    {
+      "id": "n2r",
+      "fromId": "n0",
+      "toId": "n0",
+      "type": "SEGUE",
+      "style": {},
+      "properties": {}
+    },
+    {
+      "id": "n3r",
+      "fromId": "n1",
+      "toId": "n2",
+      "type": "INTERPRETADA_POR",
+      "style": {},
+      "properties": {}
+    },
+    {
+      "id": "n4r",
+      "fromId": "n1",
+      "toId": "n3",
+      "type": "PERTENCE_AO",
+      "style": {},
+      "properties": {}
+    }
+  ],
+  "style": {
+    "font-family": "sans-serif",
+    "background-color": "#ffffff",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "pill",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 16,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#000000",
+    "property-font-size": 16,
+    "property-font-weight": "normal"
+  }
+}

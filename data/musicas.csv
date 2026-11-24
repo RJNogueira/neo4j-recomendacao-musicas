@@ -1,0 +1,101 @@
+id,titulo,ano,artista_id,artista_nome,genero
+M001,Madrugada Distante,2018,A001,Pedra Viva,Rock
+M002,Verão de Ontem,2001,A001,Pedra Viva,Rock
+M003,Janela Vermelho,1998,A001,Pedra Viva,Rock
+M004,Faísca Infinito,2021,A001,Pedra Viva,Rock
+M005,Cinza Sem Fim,2006,A001,Pedra Viva,Rock
+M006,Vento Distante,2005,A002,Eco do Asfalto,Rock
+M007,Saudade de Ontem,2005,A002,Eco do Asfalto,Rock
+M008,Ponte Vermelho,2002,A002,Eco do Asfalto,Rock
+M009,Espelho Infinito,2021,A002,Eco do Asfalto,Rock
+M010,Horizonte Sem Fim,2001,A002,Eco do Asfalto,Rock
+M011,Madrugada Distante,2019,A003,Trovão Azul,Rock
+M012,Verão de Ontem,2021,A003,Trovão Azul,Rock
+M013,Janela Vermelho,2015,A003,Trovão Azul,Rock
+M014,Faísca Infinito,2000,A003,Trovão Azul,Rock
+M015,Cinza Sem Fim,2016,A003,Trovão Azul,Rock
+M016,Vento Distante,2011,A004,Ferrugem Sonora,Rock
+M017,Saudade de Ontem,1999,A004,Ferrugem Sonora,Rock
+M018,Ponte Vermelho,1998,A004,Ferrugem Sonora,Rock
+M019,Espelho Infinito,2000,A004,Ferrugem Sonora,Rock
+M020,Horizonte Sem Fim,2004,A004,Ferrugem Sonora,Rock
+M021,Madrugada Distante,2005,A005,Maré Mansa,MPB
+M022,Verão de Ontem,2014,A005,Maré Mansa,MPB
+M023,Janela Vermelho,2017,A005,Maré Mansa,MPB
+M024,Faísca Infinito,1998,A005,Maré Mansa,MPB
+M025,Cinza Sem Fim,2015,A005,Maré Mansa,MPB
+M026,Vento Distante,2004,A006,Luz de Cajueiro,MPB
+M027,Saudade de Ontem,2020,A006,Luz de Cajueiro,MPB
+M028,Ponte Vermelho,2018,A006,Luz de Cajueiro,MPB
+M029,Espelho Infinito,2020,A006,Luz de Cajueiro,MPB
+M030,Horizonte Sem Fim,2015,A006,Luz de Cajueiro,MPB
+M031,Madrugada Distante,2011,A007,Violão de Maio,MPB
+M032,Verão de Ontem,2005,A007,Violão de Maio,MPB
+M033,Janela Vermelho,2012,A007,Violão de Maio,MPB
+M034,Faísca Infinito,2016,A007,Violão de Maio,MPB
+M035,Cinza Sem Fim,2006,A007,Violão de Maio,MPB
+M036,Vento Distante,2023,A008,Rio Sereno,MPB
+M037,Saudade de Ontem,2025,A008,Rio Sereno,MPB
+M038,Ponte Vermelho,1998,A008,Rio Sereno,MPB
+M039,Espelho Infinito,2022,A008,Rio Sereno,MPB
+M040,Horizonte Sem Fim,2023,A008,Rio Sereno,MPB
+M041,Madrugada Distante,2003,A009,Poeira Dourada,Sertanejo
+M042,Verão de Ontem,2020,A009,Poeira Dourada,Sertanejo
+M043,Janela Vermelho,2011,A009,Poeira Dourada,Sertanejo
+M044,Faísca Infinito,2008,A009,Poeira Dourada,Sertanejo
+M045,Cinza Sem Fim,2006,A009,Poeira Dourada,Sertanejo
+M046,Vento Distante,2002,A010,Estrada Real,Sertanejo
+M047,Saudade de Ontem,2004,A010,Estrada Real,Sertanejo
+M048,Ponte Vermelho,2022,A010,Estrada Real,Sertanejo
+M049,Espelho Infinito,2008,A010,Estrada Real,Sertanejo
+M050,Horizonte Sem Fim,2001,A010,Estrada Real,Sertanejo
+M051,Madrugada Distante,2000,A011,Moda da Porteira,Sertanejo
+M052,Verão de Ontem,2010,A011,Moda da Porteira,Sertanejo
+M053,Janela Vermelho,2001,A011,Moda da Porteira,Sertanejo
+M054,Faísca Infinito,2009,A011,Moda da Porteira,Sertanejo
+M055,Cinza Sem Fim,2025,A011,Moda da Porteira,Sertanejo
+M056,Vento Distante,2009,A012,Cavalo Branco,Sertanejo
+M057,Saudade de Ontem,2017,A012,Cavalo Branco,Sertanejo
+M058,Ponte Vermelho,2006,A012,Cavalo Branco,Sertanejo
+M059,Espelho Infinito,2023,A012,Cavalo Branco,Sertanejo
+M060,Horizonte Sem Fim,1999,A012,Cavalo Branco,Sertanejo
+M061,Madrugada Distante,2021,A013,Pixel Noturno,Eletronica
+M062,Verão de Ontem,2012,A013,Pixel Noturno,Eletronica
+M063,Janela Vermelho,2015,A013,Pixel Noturno,Eletronica
+M064,Faísca Infinito,2001,A013,Pixel Noturno,Eletronica
+M065,Cinza Sem Fim,2010,A013,Pixel Noturno,Eletronica
+M066,Vento Distante,2000,A014,Circuito Aberto,Eletronica
+M067,Saudade de Ontem,2015,A014,Circuito Aberto,Eletronica
+M068,Ponte Vermelho,2007,A014,Circuito Aberto,Eletronica
+M069,Espelho Infinito,2024,A014,Circuito Aberto,Eletronica
+M070,Horizonte Sem Fim,2018,A014,Circuito Aberto,Eletronica
+M071,Madrugada Distante,2017,A015,Neon Delta,Eletronica
+M072,Verão de Ontem,2025,A015,Neon Delta,Eletronica
+M073,Janela Vermelho,2009,A015,Neon Delta,Eletronica
+M074,Faísca Infinito,2016,A015,Neon Delta,Eletronica
+M075,Cinza Sem Fim,2004,A015,Neon Delta,Eletronica
+M076,Vento Distante,2020,A016,Batida Zero,Eletronica
+M077,Saudade de Ontem,2000,A016,Batida Zero,Eletronica
+M078,Ponte Vermelho,1999,A016,Batida Zero,Eletronica
+M079,Espelho Infinito,2019,A016,Batida Zero,Eletronica
+M080,Horizonte Sem Fim,2005,A016,Batida Zero,Eletronica
+M081,Madrugada Distante,2022,A017,Quarteto Cobalto,Jazz
+M082,Verão de Ontem,2007,A017,Quarteto Cobalto,Jazz
+M083,Janela Vermelho,2000,A017,Quarteto Cobalto,Jazz
+M084,Faísca Infinito,2025,A017,Quarteto Cobalto,Jazz
+M085,Cinza Sem Fim,2005,A017,Quarteto Cobalto,Jazz
+M086,Vento Distante,2025,A018,Noites de Veludo,Jazz
+M087,Saudade de Ontem,2001,A018,Noites de Veludo,Jazz
+M088,Ponte Vermelho,2010,A018,Noites de Veludo,Jazz
+M089,Espelho Infinito,2006,A018,Noites de Veludo,Jazz
+M090,Horizonte Sem Fim,2012,A018,Noites de Veludo,Jazz
+M091,Madrugada Distante,2018,A019,Sax e Chuva,Jazz
+M092,Verão de Ontem,2024,A019,Sax e Chuva,Jazz
+M093,Janela Vermelho,2009,A019,Sax e Chuva,Jazz
+M094,Faísca Infinito,2003,A019,Sax e Chuva,Jazz
+M095,Cinza Sem Fim,2009,A019,Sax e Chuva,Jazz
+M096,Vento Distante,2009,A020,Trio Meridiano,Jazz
+M097,Saudade de Ontem,2004,A020,Trio Meridiano,Jazz
+M098,Ponte Vermelho,2019,A020,Trio Meridiano,Jazz
+M099,Espelho Infinito,2006,A020,Trio Meridiano,Jazz
+M100,Horizonte Sem Fim,2020,A020,Trio Meridiano,Jazz
