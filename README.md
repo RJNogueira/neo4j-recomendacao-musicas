@@ -28,7 +28,7 @@ Recomendar é "seguir os fios" de um mural:
 
 ## 3. Modelo do grafo
 
-Desenhado antes no [Arrows.app](https://arrows.app) (arquivo editável em [`docs/modelo-arrows.json`](docs/modelo-arrows.json)).
+Desenhado antes no [Arrows.app](https://arrows.app).
 
 Modelo do grafo
 
@@ -120,7 +120,7 @@ Contagens
 
 ### 6.3 As queries principais
 
-**Tribos musicais** (substitui o algoritmo Louvain, que exige GDS): descobre o gênero favorito de cada usuário e grava na propriedade `genero_favorito`.
+**Tribos musicais**: descobre o gênero favorito de cada usuário e grava na propriedade `genero_favorito`.
 
 ```
 MATCH (u:Usuario)-[o:OUVIU]->(:Musica)-[:PERTENCE_AO]->(g:Genero)
@@ -171,7 +171,7 @@ RETURN rec.titulo AS musica, amigos, bonus_genero, amigos * 2 + bonus_genero AS 
 ORDER BY score DESC LIMIT 10;
 ```
 
-Todas as queries (similaridade de Jaccard, caminho entre músicas, etc.) estão em [`cypher/aura/aura_passo_a_passo.cypher`](cypher/aura/aura_passo_a_passo.cypher).
+Todas as queries (similaridade de Jaccard, caminho entre músicas, etc.).
 
 ## 7. Visualização no Neo4j Explore
 
@@ -194,7 +194,7 @@ No **Explore**, usei a regra de estilo **Unique values** na categoria `Usuario`,
 | Preview do Importer mostrava os usuários soltos | O preview usa só uma amostra das linhas | Conferir o canvas completo e as contagens depois do import |
 | No Explore só aparecia 4 das 5 cores de tribo | O laranja padrão de `Musica` era parecido com a cor de uma tribo e escondia os usuários dela | Mudar a cor de `Musica` para um cinza neutro |
 | `genero_favorito` não aparecia no Explore | A Perspective foi gerada antes da query das tribos | Rodar a query das tribos e **atualizar a Perspective** |
-| PageRank e Louvain não rodam | O plano **Aura Free não tem GDS** (Graph Data Science) | Usei Cypher puro: Jaccard e a propriedade `genero_favorito` como "tribo". Os scripts GDS estão em `cypher/05` e `07` para quem usar Neo4j Desktop |
+| PageRank e Louvain não rodam | O plano **Aura Free não tem GDS** (Graph Data Science) | Usei Cypher puro: Jaccard e a propriedade `genero_favorito` como "tribo". |
 
 ## 9. Aprendizados
 
